@@ -36,7 +36,7 @@ Java爬虫实例
 * 更新时间 
 * 预警信息[标题,内容,发布时间]
 
-###2、天气网
+### 2、天气网
 
 * https://www.tianqi.com/
 
@@ -242,7 +242,7 @@ Java爬虫实例
 
 #### 结果
 
-###2、豆瓣搜索
+### 2、豆瓣搜索
 
 * https://www.douban.com/
 * 难度：简单
@@ -266,7 +266,7 @@ Java爬虫实例
 
 ## 六、百度
 
-###1、疫情数据
+### 1、疫情数据
 
 * https://voice.baidu.com/act/newpneumonia/newpneumonia/?from=osari_aladin_banner
 * 难度：一般
@@ -288,7 +288,7 @@ Java爬虫实例
 
 ## 七、有道
 
-###1、有道翻译
+### 1、有道翻译
 
 * https://fanyi.youdao.com/
 * 难度：困难
