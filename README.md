@@ -111,7 +111,8 @@ Java爬虫实例
   String json = HttpRequest.post(url)        
       .form(body)        
       .header("X-Requested-With", "XMLHttpRequest")        
-      .contentType("application/x-www-form-urlencoded;charset=UTF-8")        .execute().body();
+      .contentType("application/x-www-form-urlencoded;charset=UTF-8")        
+      .execute().body();
   ```
 
 #### 结果
