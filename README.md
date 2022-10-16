@@ -84,8 +84,10 @@ Java爬虫实例
 #### 结果
 
 * name:影视名,
-*  url:播放地址, 
+* url:播放地址, 
 * web_name:播放平台名
+* web_icon:播放平台图标
+* tag_name:标签
 
 ## 三、音乐
 
@@ -334,6 +336,16 @@ Java爬虫实例
       .cookie(cookie)        
       .execute().body();
   ```
+  
+* 翻译语音，（get请求，返回音频文件）
+
+ ```java
+ //text:语音文本
+ //type:文本语言{英语,日语,韩语,法语}
+ String text="hello world";
+ String[] type={"eng","jap","ko","fr"};
+ String url="https://tts.youdao.com/fanyivoice?word="+text+"&le="+type[0]+"&keyfrom=speaker-target";
+ ```
 
 #### 结果
 
